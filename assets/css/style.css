@@ -1,0 +1,42 @@
+.header {
+    background:black;
+    color:white;
+    padding:15px;
+    width:100%;
+    text-align:center;
+  }
+
+  .add-train,.train-schedule {
+    border: 1px black solid;
+    margin-top:10px;
+  }
+
+  .train-schedule {
+    display:none;
+  }
+
+  .header-small {
+    background:blue;
+    color:white;
+    padding:10px;
+    padding-left:20px;
+}
+
+  .form-group {
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .submit-button{
+    margin-left:20px;
+    margin-bottom:20px;
+  }
+  td, th{
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+th{
+  font-weight:bold;
+  font-size:18px;
+}
