@@ -3,7 +3,7 @@
 <!-- Put a description of what the project is -->
 Learning jQuery, Firebase, Moment.js: Interacting with Firebase, Event handlers for Firebase, jQuery Event handlers, Dymanically creating html elements, Moment.js for date and time formats and calculations
 
-#Goal
+## Goal
 To make a train scheduler where user can add train information (Name, destination, Start Time and Frequency) and the scheduler will show the data in a table format with the information like Name, Destination, Frequency, Next Arrival Time and Minutes Away. All the data that user inputs gets pushed on the database in order to keep it persistent across all the application users.
 
 ## Link to deployed site
