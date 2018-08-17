@@ -107,11 +107,19 @@ $(function(){
 
     //dynamically create a table data col
     var trainCol = $("<td>");
+    //if difference between current time and next arrival time is 0
+    if(difference === 0){
+      //show boarding message
+      trainCol.text("Boarding");
+    }
+    else{
     //give it the text of the difference between the next train and the current time
     trainCol.text(difference*(-1));
+    }
     //add the column to the train table row
     trainRow.append(trainCol);
 
+    //append the row to the table body
     $("tbody").append(trainRow);
   },
   //when error occurs
