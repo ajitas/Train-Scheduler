@@ -1,11 +1,11 @@
 
 .header {
-    background:white;
+    background:url("http://www.noticiasgalicia.com/media/k2/items/cache/5f84eed9fe9260d328dda2ec5fa628c8_XL.jpg");
     color:white;
     padding:15px;
     width:100%;
     text-align:center;
-    text-shadow:4px 4px 10px rgb(4, 4, 54);;
+    text-shadow:4px 4px 15px rgb(2, 2, 20);;
   }
 
   .add-train,.train-schedule {
