@@ -12,6 +12,9 @@
     box-shadow:4px 4px 10px rgb(4, 4, 54);
     margin-top:10px;
   }
+  .add-train {
+    margin-bottom:20px;
+  }
 
   .train-schedule {
     display:none;
