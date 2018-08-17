@@ -112,8 +112,7 @@ $(function(){
     //add the column to the train table row
     trainRow.append(trainCol);
 
-    //add the row to the train table
-    $(".train-table").append(trainRow);
+    $("tbody").append(trainRow);
   },
   //when error occurs
   function(errorObject) {

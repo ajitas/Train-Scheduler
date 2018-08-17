@@ -1,13 +1,15 @@
+
 .header {
-    background:black;
+    background:white;
     color:white;
     padding:15px;
     width:100%;
     text-align:center;
+    text-shadow:4px 4px 10px rgb(4, 4, 54);;
   }
 
   .add-train,.train-schedule {
-    border: 1px black solid;
+    box-shadow:4px 4px 10px rgb(4, 4, 54);
     margin-top:10px;
   }
 
@@ -16,7 +18,7 @@
   }
 
   .header-small {
-    background:blue;
+    background:rgb(4, 4, 80);
     color:white;
     padding:10px;
     padding-left:20px;
@@ -30,6 +32,7 @@
   .submit-button{
     margin-left:20px;
     margin-bottom:20px;
+    background:rgb(4, 4, 80);
   }
   td, th{
     padding-left:25px;
