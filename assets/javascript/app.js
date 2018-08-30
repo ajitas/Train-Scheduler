@@ -15,7 +15,7 @@ $(function(){
   //make a reference to firebase database
   var database = firebase.database();
   //make a reference to database root
-  var trainRef = database.ref();
+  var trainRef = database.ref("/train");
 
   //click event handler on submit button
   $(".submit-button").on ("click", function(event){
